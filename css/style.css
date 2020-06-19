@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.article {
+    padding: 10px 20px;
+}
+
+.back-grey {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.article-title {
+    font-size: 35px;
+}
+
+
+/* top-article */
+.top-article {
+    text-align: center;
+    border-left: 8px solid black;
+}
+
+.twitter-img {
+    border-radius: 100%;
+    width: 250px;
+    margin-top: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.164);
+}
+
+.my-name {
+    font-size: 30px;
+}
+
+.top-comment {
+    padding: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.568);
+    width: 40%;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
+/* Products */
+#Products {
+    height: 100%;
+    border-left: 8px solid #4385F3;
+}
+
+#Products ul {
+    display: flex;
+    justify-content: left;
+}
+
+#Products ul li {
+    margin: 10px;
+    flex-direction: column;
+    width: 18%;
+}
+
+
+/* Profiel */
+#Profiel {
+    border-left: 8px solid#FFBB32;
+}
+
+/* Skill */
+#Skill {
+    border-left: 8px solid #00C950;
+}
+
+/* Link */
+#Link {
+    border-left: 8px solid #FF3646;
+}
