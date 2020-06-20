@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -6,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>ポートフォリオ</title>
     <!-- MDB icon --><!-- 後で変更する -->
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/twitter-img.jpeg" type="image/x-icon">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
     <!-- Google Fonts Roboto -->
@@ -17,6 +18,9 @@
     <link rel="stylesheet" href="css/mdb.min.css">
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 </head>
 
 <body>
@@ -33,7 +37,7 @@
           <a class="nav-link" href="#Products">Products <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Profiel</a>
+          <a class="nav-link" href="#">Profile</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Skill</a>
@@ -47,9 +51,15 @@
   <!-- header end -->
 
   <div class="top-article">
+    <!--<canvas></canvas>-->
+    <div id="particle-canvas"></div>
     <img class="twitter-img" src="./img/twitter-img.jpeg">
     <div class="my-name">はな</div>
-    <div class="top-comment">技術力向上に励んでいるぞ</div>
+    <div class="card top-card">
+      <div class="card-body">
+        技術力向上に励んでいるぞ
+      </div>
+    </div>
   </div>
 
   <!-- これまで作成したもの -->
@@ -96,8 +106,8 @@
   </div>
 
   <!-- 自己紹介 -->
-  <div class="article" id="Profiel">
-    <div class="article-title">Profiel</div>
+  <div class="article" id="Profile">
+    <div class="article-title">Profile</div>
 
   </div>
 
@@ -168,7 +178,5 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
-
 </body>
 </html>
